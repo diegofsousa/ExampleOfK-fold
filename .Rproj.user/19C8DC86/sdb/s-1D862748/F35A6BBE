@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(caret); library(kernlab); data(\"spam\") # Importação do pacote \"caret\" e do dateset \"spam\"\nfolds <- createFolds(y=spam$type, k = 10, list = TRUE, returnTrain = TRUE) # Criação dos k-folds, 10 k-folds\nsapply(folds, length)\n",
+    "created" : 1504741752709.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2494562395",
+    "id" : "F35A6BBE",
+    "lastKnownWriteTime" : 1504742210,
+    "last_content_update" : 1504742210127,
+    "path" : "~/RProjects/primeiro/cross-validation.r",
+    "project_path" : "cross-validation.r",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
